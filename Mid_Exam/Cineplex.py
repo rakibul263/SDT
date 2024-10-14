@@ -53,7 +53,6 @@ class Hall(Cineplex):
         for row in range(self.__rows):
             for col in range(self.__cols):
                 if self.__seats[id][row][col] == 'free':
-                    # print(f"({row},{col})", end='=0 ')
                     print(end=' 0 ')
                 else:
                     print(end='(1)')
